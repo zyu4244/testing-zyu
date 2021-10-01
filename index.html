@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Blog Page 1</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blogg</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex form-inline my-2 my-lg-0">
+                    <input class="form-control border-0" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="hero-post shadow">
+                        <img src="images/1.jpg" class="img-fluid" alt="">
+                        <div class="hero-post-badges">
+                            <a class="p-2" href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 15March2021</a>
+                            <a class="p-2" href="#">Tech</a>
+                            <a class="p-2" href="#">Tech</a>
+                        </div>
+                        <div class="hero-post-content">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/person.jpg" alt="Author" class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-md-9">
+                                    <h3>My Blog Post</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="col-lg-8">
+                        <div class="hero-post shadow">
+                            <img src="images/1.jpg" class="img-fluid" alt="">
+                            <div class="hero-post-badges">
+                                <a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 15March2021</a>
+                                <a href="#">Tech</a>
+                                <a href="#">Tech</a>
+                            </div>
+                            <div class="hero-post-content">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/person.jpg" alt="Author" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h4>My Blog Post</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="hero-post shadow">
+                            <img src="images/1.jpg" class="img-fluid" alt="">
+                            <div class="hero-post-badges">
+                                <a href="#"><i class="fa fa-calendar-o" aria-hidden="true"></i> 15March2021</a>
+                                <a href="#">Tech</a>
+                                <a href="#">Tech</a>
+                            </div>
+                            <div class="hero-post-content">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/person.jpg" alt="Author" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <h4>My Blog Post</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--        MY BLOG SECTION        -->
+    <section class="blog-posts py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <article class="blog-post mb-3">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="images/1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>My Blog Post Title</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione cumque dolor
+                                    animi quasi quas illo tenetur est laboriosam sed itaque voluptates culpa at
+                                    consequatur, similique, deserunt accusamus magni voluptatem.</p>
+                                <div class="badge">
+                                    <a href="#">Hello</a>
+                                    <a href="#">Hello</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="blog-post mb-3">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="images/1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>My Blog Post Title</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione cumque dolor
+                                    animi quasi quas illo tenetur est laboriosam sed itaque voluptates culpa at
+                                    consequatur, similique, deserunt accusamus magni voluptatem.</p>
+                                <div class="badge">
+                                    <a href="#">Hello</a>
+                                    <a href="#">Hello</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="blog-post">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img src="images/1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>My Blog Post Title</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione cumque dolor
+                                    animi quasi quas illo tenetur est laboriosam sed itaque voluptates culpa at
+                                    consequatur, similique, deserunt accusamus magni voluptatem.</p>
+                                <div class="badge">
+                                    <a href="#">Hello</a>
+                                    <a href="#">Hello</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <aside class="col-md-4">
+                    <!-- SOCIAL LINKS -->
+                    <div class="row text-center">
+                        <div class="col-sm-4">
+                            <a href="#" class="social-link py-4 w-100">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="social-link py-4 w-100">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="social-link py-4 w-100">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="aside-heading">Popular Author</h4>
+                    <article class="row author mb-3">
+                        <div class="col-sm-4">
+                            <img src="images/person.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>John Doe</h5>
+                            <p class="m-0">
+                                Lorem ipsum, dolor sit amet consectetur adi
+                                uibusdam unde eligendi ipsam
+                                natus dolorum consequatur </p>
+                            <div class="social-links">
+                                <a href="#" class="social-link py-4 w-100">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <h4 class="aside-heading mt-4">
+                        Popular Categories
+                    </h4>
+                    <div class="badge w-100">
+                        <p class="badge-link w-100 text-center">
+                            <a href="#">Technology</a>
+                        </p>
+                        <p class="badge-link">
+                            <a href="#">Technology</a>
+                        </p>
+                        <p class="badge-link">
+                            <a href="#">Technology</a>
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!--            FOOTER SECTION               -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="footer-logo">Blogg</a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur voluptate ipsam deleniti at quaerat eligendi. Accusamus pariatur r</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Newsletter</h4>
+                    <form action="" class="form-inline my-2 my-lg-0">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button class="btn btn-outline-success my-sm-0"> Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="w-100 text-center credits">
+                <p>Made by me &copy; 2021. All right reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

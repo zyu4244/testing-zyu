@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+a {
+    color: #66fcf1;
+}
+
+input {
+    background-color: #2e2f35 !important;
+}
+
+.navbar {
+    background-color: #0B0C10;
+    color: aqua !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-main {
+    background-color: #66fcf1 !important;
+    color: #0B0C10 !important;
+}
+
+.hero {
+    background-color: #1f2833;
+}
+
+.hero-post-badges {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hero-post-badges > a {
+    display: blockl;
+    background-color: #0B0C10;
+    color: #66fcf1;
+}
